@@ -43,7 +43,7 @@ const ContactInputs: React.FC<ContactInputsProps> = ({
           onChange={handleChange}
           placeholder="your.email@example.com"
           required
-          className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all"
+          className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all"
         />
       </div>
 
@@ -59,7 +59,7 @@ const ContactInputs: React.FC<ContactInputsProps> = ({
                 handleSelectChange("phoneCountryCode", value)
               }
             >
-              <SelectTrigger className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all">
+              <SelectTrigger className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all">
                 <SelectValue placeholder="+1" />
               </SelectTrigger>
               <SelectContent className="max-h-[240px]">
@@ -93,7 +93,7 @@ const ContactInputs: React.FC<ContactInputsProps> = ({
             value={phone}
             onChange={handleChange}
             placeholder="Phone number"
-            className="w-2/3 h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all"
+            className="w-2/3 h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all"
             required
           />
         </div>

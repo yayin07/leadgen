@@ -56,7 +56,7 @@ const HowItWorks = () => {
                 {/* Frame around the content */}
                 <div className="bg-white rounded-xl p-6 h-full border border-gray-100 shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col">
                   {/* Step number with gradient background */}
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-r from-primary to-secondary text-white flex items-center justify-center font-bold text-xl mb-4 shadow-md self-start">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-r from-[#1e7a7a] to-[#3AA383] text-white flex items-center justify-center font-bold text-xl mb-4 shadow-md self-start">
                     {step.number}
                   </div>
 

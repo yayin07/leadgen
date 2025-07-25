@@ -128,7 +128,7 @@ const ApplicationForm = () => {
        max-w-3xl w-full px-4 md:px-0 overflow-x-hidden"
       >
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gradient-primary">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gradient-[#1e7a7a]">
             Apply Now - Takes Less Than 2 Minutes!
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
@@ -175,7 +175,7 @@ const ApplicationForm = () => {
               <div className="pt-6">
                 <Button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-argos-green to-argos-teal hover:from-argos-green/90 hover:to-argos-teal/90 text-white py-7 text-lg rounded-lg shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1"
+                  className="w-full bg-gradient-to-r from-[#00a76f] to-[#0a8b9e] hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 text-white py-7 text-lg rounded-lg shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? (

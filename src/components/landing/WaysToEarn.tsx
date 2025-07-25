@@ -126,7 +126,7 @@ const WaysToEarn = () => {
             once: true,
           }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#1e7a7a] to-[#3AA383]">
             Examples of past tasks
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -166,7 +166,7 @@ const WaysToEarn = () => {
                   <div className="flex items-center gap-3">
                     <div
                       className={`p-3 rounded-lg ${
-                        hoveredCard === index ? "bg-primary/10" : "bg-muted"
+                        hoveredCard === index ? "bg-[#1e7a7a]/10" : "bg-muted"
                       } transition-colors duration-300`}
                     >
                       {method.icon}
@@ -183,11 +183,11 @@ const WaysToEarn = () => {
                     <div className="flex justify-between items-center">
                       <Badge
                         variant="outline"
-                        className="bg-primary/5 text-primary font-medium"
+                        className="bg-[#1e7a7a]/5 text-[#1e7a7a] font-medium"
                       >
                         Average Pay
                       </Badge>
-                      <span className="font-bold text-primary">
+                      <span className="font-bold text-[#1e7a7a]">
                         {method.payments}
                       </span>
                     </div>

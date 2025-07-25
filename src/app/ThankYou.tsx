@@ -35,7 +35,7 @@ const ThankYou = () => {
 
             <Button
               onClick={() => router.push("/")}
-              className="w-full bg-gradient-to-r from-argos-green to-argos-teal hover:from-argos-green/90 hover:to-argos-teal/90 text-white"
+              className="w-full bg-gradient-to-r from-[#00a76f] to-[#0a8b9e] hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 text-white"
             >
               Return to Home
             </Button>

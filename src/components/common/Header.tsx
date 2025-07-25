@@ -59,7 +59,7 @@ const Header = ({ openMobileForm }: HeaderProps) => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-argos-green to-argos-teal">
+          <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#00a76f] to-[#0a8b9e]">
             Argos Multilingual
           </span>
         </motion.div>
@@ -70,7 +70,7 @@ const Header = ({ openMobileForm }: HeaderProps) => {
             variant="ghost"
             size="sm"
             onClick={() => scrollToSection("benefits")}
-            className="hover:bg-argos-green/10 hover:text-argos-green"
+            className="hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
           >
             Benefits
           </Button>
@@ -78,7 +78,7 @@ const Header = ({ openMobileForm }: HeaderProps) => {
             variant="ghost"
             size="sm"
             onClick={() => scrollToSection("ways-to-earn")}
-            className="hover:bg-argos-green/10 hover:text-argos-green"
+            className="hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
           >
             Ways to Earn
           </Button>
@@ -86,7 +86,7 @@ const Header = ({ openMobileForm }: HeaderProps) => {
             variant="ghost"
             size="sm"
             onClick={() => scrollToSection("how-it-works")}
-            className="hover:bg-argos-green/10 hover:text-argos-green"
+            className="hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
           >
             How It Works
           </Button>
@@ -94,7 +94,7 @@ const Header = ({ openMobileForm }: HeaderProps) => {
             variant="ghost"
             size="sm"
             onClick={() => scrollToSection("testimonials")}
-            className="hover:bg-argos-green/10 hover:text-argos-green"
+            className="hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
           >
             Testimonials
           </Button>
@@ -102,13 +102,13 @@ const Header = ({ openMobileForm }: HeaderProps) => {
             variant="ghost"
             size="sm"
             onClick={() => scrollToSection("faq")}
-            className="hover:bg-argos-green/10 hover:text-argos-green"
+            className="hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
           >
             FAQ
           </Button>
           <Button
             onClick={scrollToForm}
-            className="ml-2 bg-gradient-to-r from-argos-green to-argos-teal hover:from-argos-green/90 hover:to-argos-teal/90 text-white"
+            className="ml-2 bg-gradient-to-r from-[#00a76f] to-[#0a8b9e] hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 text-white"
           >
             Apply Now
           </Button>
@@ -118,7 +118,7 @@ const Header = ({ openMobileForm }: HeaderProps) => {
         <div className="md:hidden flex items-center">
           <Button
             onClick={openMobileForm}
-            className="mr-2 bg-gradient-to-r from-argos-green to-argos-teal hover:from-argos-green/90 hover:to-argos-teal/90 text-white"
+            className="mr-2 bg-gradient-to-r  from-[#00a76f] to-[#0a8b9e] hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 text-white"
           >
             Apply
           </Button>
@@ -148,42 +148,42 @@ const Header = ({ openMobileForm }: HeaderProps) => {
           <div className="container py-4 space-y-2">
             <Button
               variant="ghost"
-              className="w-full justify-start hover:bg-argos-green/10 hover:text-argos-green"
+              className="w-full justify-start hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
               onClick={() => scrollToSection("benefits")}
             >
               Benefits
             </Button>
             <Button
               variant="ghost"
-              className="w-full justify-start hover:bg-argos-green/10 hover:text-argos-green"
+              className="w-full justify-start hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
               onClick={() => scrollToSection("ways-to-earn")}
             >
               Ways to Earn
             </Button>
             <Button
               variant="ghost"
-              className="w-full justify-start hover:bg-argos-green/10 hover:text-argos-green"
+              className="w-full justify-start hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
               onClick={() => scrollToSection("how-it-works")}
             >
               How It Works
             </Button>
             <Button
               variant="ghost"
-              className="w-full justify-start hover:bg-argos-green/10 hover:text-argos-green"
+              className="w-full justify-start hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
               onClick={() => scrollToSection("testimonials")}
             >
               Testimonials
             </Button>
             <Button
               variant="ghost"
-              className="w-full justify-start hover:bg-argos-green/10 hover:text-argos-green"
+              className="w-full justify-start hover:bg-[#00a76f]/10 hover:text-[#00a76f]"
               onClick={() => scrollToSection("faq")}
             >
               FAQ
             </Button>
             <Button
               onClick={openMobileForm}
-              className="w-full bg-gradient-to-r from-argos-green to-argos-teal hover:from-argos-green/90 hover:to-argos-teal/90 text-white"
+              className="w-full bg-gradient-to-r from-[#00a76f] to-[#0a8b9e] hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 text-white"
             >
               Apply Now
             </Button>

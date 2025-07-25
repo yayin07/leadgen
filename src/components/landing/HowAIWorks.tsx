@@ -33,9 +33,9 @@ const HowAIWorks = () => {
     <section className="py-20 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 left-[10%] w-72 h-72 bg-primary/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-[15%] w-80 h-80 bg-secondary/5 rounded-full blur-3xl"></div>
-        <div className="absolute top-40 right-[25%] w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-[10%] w-72 h-72 bg-[#1e7a7a]/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-[15%] w-80 h-80 bg-[#3AA383]/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-40 right-[25%] w-64 h-64 bg-[#1e7a7a]/5 rounded-full blur-3xl"></div>
       </div>
 
       <div className={isMobile ? "px-4" : "container"}>
@@ -97,7 +97,7 @@ const HowAIWorks = () => {
             communicate more effectively.
           </p>
 
-          <div className="flex items-center text-primary gap-2 mb-6">
+          <div className="flex items-center text-[#1e7a7a] gap-2 mb-6">
             <Info className="h-5 w-5" />
             <p className="text-sm font-medium">
               This is where your contribution makes a difference
@@ -145,7 +145,7 @@ const HowAIWorks = () => {
                   <Card className="h-full hover:shadow-md transition-shadow cursor-pointer bg-gradient-to-br from-white to-gray-50">
                     <CardContent className="p-6 text-center">
                       <div className="text-4xl mb-3">{example.icon}</div>
-                      <h3 className="text-xl font-semibold mb-2 text-primary">
+                      <h3 className="text-xl font-semibold mb-2 text-[#1e7a7a]">
                         {example.name}
                       </h3>
                       <p className="text-muted-foreground">

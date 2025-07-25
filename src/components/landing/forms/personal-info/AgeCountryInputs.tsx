@@ -60,7 +60,7 @@ const AgeCountryInputs: React.FC<AgeCountryInputsProps> = ({
           onChange={handleChange}
           placeholder="Must be 18 or older"
           required
-          className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all"
+          className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all"
           onBlur={(e) => {
             const value = parseInt(e.target.value);
             if (value < 18) {
@@ -83,7 +83,7 @@ const AgeCountryInputs: React.FC<AgeCountryInputsProps> = ({
         >
           <SelectTrigger
             id="country"
-            className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all"
+            className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all"
           >
             <SelectValue placeholder="Select your country" />
           </SelectTrigger>

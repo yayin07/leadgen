@@ -2,7 +2,7 @@ import React from "react";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-primary text-white py-16">
+    <footer className="bg-[#1e7a7a] text-white py-16">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-10 border-b border-white/20">
           <div className="col-span-1 md:col-span-2">

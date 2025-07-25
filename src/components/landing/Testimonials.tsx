@@ -67,11 +67,11 @@ const Testimonials = () => {
             </p>
           </div>
         </div>
-        <Quote className="h-6 w-6 text-secondary/70" />
+        <Quote className="h-6 w-6 text-[#3AA383]/70" />
       </div>
 
       <div className="mb-4">
-        <div className="flex gap-0.5 text-secondary">
+        <div className="flex gap-0.5 text-[#3AA383]">
           {[...Array(testimonial.rating)].map((_, i) => (
             <span key={i}>★</span>
           ))}

@@ -26,7 +26,7 @@ const NameInputs: React.FC<NameInputsProps> = ({
           onChange={handleChange}
           placeholder="Your first name"
           required
-          className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all"
+          className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all"
         />
       </div>
 
@@ -41,7 +41,7 @@ const NameInputs: React.FC<NameInputsProps> = ({
           onChange={handleChange}
           placeholder="Your last name"
           required
-          className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all"
+          className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all"
         />
       </div>
     </div>

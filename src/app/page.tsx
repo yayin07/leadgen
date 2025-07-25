@@ -69,7 +69,7 @@ const Index = () => {
           <HowAIWorks />
           <WaysToEarn />
           <motion.div
-            className="bg-gradient-to-r from-primary/10 to-secondary/10 py-16 px-4 relative overflow-hidden"
+            className="bg-gradient-to-r from-[#1e7a7a]/10 to-[#3AA383]/10 py-16 px-4 relative overflow-hidden"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -77,8 +77,8 @@ const Index = () => {
           >
             {/* Background decorations */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-              <div className="absolute top-10 left-10 w-24 h-24 bg-secondary/10 rounded-full blur-3xl"></div>
-              <div className="absolute bottom-10 right-10 w-32 h-32 bg-primary/10 rounded-full blur-3xl"></div>
+              <div className="absolute top-10 left-10 w-24 h-24 bg-[#3AA383]/10 rounded-full blur-3xl"></div>
+              <div className="absolute bottom-10 right-10 w-32 h-32 bg-[#1e7a7a]/10 rounded-full blur-3xl"></div>
             </div>
 
             <div className="container mx-auto text-center relative z-10">
@@ -111,7 +111,7 @@ const Index = () => {
               >
                 <Button
                   onClick={scrollToForm}
-                  className="px-8 py-6 bg-gradient-to-r from-argos-green to-argos-teal text-white font-medium text-lg rounded-full hover:from-argos-green/90 hover:to-argos-teal/90 transition-colors shadow-lg"
+                  className="px-8 py-6 bg-gradient-to-r from-[#00a76f] to-[#0a8b9e] text-white font-medium text-lg rounded-full hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 transition-colors shadow-lg"
                 >
                   Apply Now <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>

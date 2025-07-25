@@ -40,7 +40,7 @@ const LanguageGenderInputs: React.FC<LanguageGenderInputsProps> = ({
         >
           <SelectTrigger
             id="nativeLanguage"
-            className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all"
+            className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all"
           >
             <SelectValue placeholder="Select your native language" />
           </SelectTrigger>
@@ -90,7 +90,7 @@ const LanguageGenderInputs: React.FC<LanguageGenderInputsProps> = ({
         >
           <SelectTrigger
             id="gender"
-            className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-primary/20 transition-all"
+            className="h-12 border-gray-200 hover:border-gray-300 focus:ring-2 focus:ring-[#1e7a7a]/20 transition-all"
           >
             <SelectValue placeholder="Select your gender" />
           </SelectTrigger>

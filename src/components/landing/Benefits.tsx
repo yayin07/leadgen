@@ -23,17 +23,17 @@ const Benefits = () => {
   const isMobile = useIsMobile();
   const mainBenefits = [
     {
-      icon: <Clock className="h-6 w-6 text-primary" />,
+      icon: <Clock className="h-6 w-6 text-[#1e7a7a]" />,
       title: "Flexible Hours",
       description: "Work when you want",
     },
     {
-      icon: <Users className="h-6 w-6 text-primary" />,
+      icon: <Users className="h-6 w-6 text-[#1e7a7a]" />,
       title: "Interest tasks",
       description: "That match your skill",
     },
     {
-      icon: <Clock className="h-6 w-6 text-primary" />,
+      icon: <Clock className="h-6 w-6 text-[#1e7a7a]" />,
       title: "Grow",
       description: "Become an expert in this growing industry",
     },
@@ -112,7 +112,7 @@ const Benefits = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Benefits of Working With{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#1e7a7a] to-[#3AA383]">
               Argos Multilingual
             </span>
           </h2>
@@ -129,10 +129,10 @@ const Benefits = () => {
                 {mainBenefits.map((benefit, index) => (
                   <CarouselItem key={index} className="md:basis-1/1">
                     <div className="flex flex-col items-center text-center p-8 rounded-xl bg-white border border-border shadow-lg h-full mx-4">
-                      <div className="mb-5 rounded-full bg-primary/10 p-4">
+                      <div className="mb-5 rounded-full bg-[#1e7a7a]/10 p-4">
                         {benefit.icon}
                       </div>
-                      <h3 className="text-2xl font-bold text-primary mb-3">
+                      <h3 className="text-2xl font-bold text-[#1e7a7a] mb-3">
                         {benefit.title}
                       </h3>
                       <p className="text-muted-foreground">
@@ -143,10 +143,10 @@ const Benefits = () => {
                 ))}
               </CarouselContent>
               <div className="flex justify-center mt-6 gap-4">
-                <CarouselPrevious className="static transform-none h-10 w-10 rounded-full border-primary hover:bg-primary/10 hover:text-primary mr-2">
+                <CarouselPrevious className="static transform-none h-10 w-10 rounded-full border-[#1e7a7a] hover:bg-[#1e7a7a]/10 hover:text-[#1e7a7a] mr-2">
                   <ChevronLeft className="h-6 w-6" />
                 </CarouselPrevious>
-                <CarouselNext className="static transform-none h-10 w-10 rounded-full border-primary hover:bg-primary/10 hover:text-primary ml-2">
+                <CarouselNext className="static transform-none h-10 w-10 rounded-full border-[#1e7a7a] hover:bg-[#1e7a7a]/10 hover:text-[#1e7a7a] ml-2">
                   <ChevronRight className="h-6 w-6" />
                 </CarouselNext>
               </div>
@@ -172,10 +172,10 @@ const Benefits = () => {
                   y: -5,
                 }}
               >
-                <div className="mb-5 rounded-full bg-primary/10 p-4">
+                <div className="mb-5 rounded-full bg-[#1e7a7a]/10 p-4">
                   {benefit.icon}
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-3">
+                <h3 className="text-2xl font-bold text-[#1e7a7a] mb-3">
                   {benefit.title}
                 </h3>
                 <p className="text-muted-foreground">{benefit.description}</p>
@@ -204,7 +204,7 @@ const Benefits = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-2">
             {/* Text Content */}
-            <div className="p-8 md:p-10 bg-gradient-to-r from-primary/10 to-secondary/10 flex items-center">
+            <div className="p-8 md:p-10 bg-gradient-to-r from-[#1e7a7a]/10 to-[#3AA383]/10 flex items-center">
               <div className="max-w-md">
                 <h3 className="text-2xl font-bold mb-5">
                   Join Our Global Community
@@ -220,7 +220,7 @@ const Benefits = () => {
                 </p>
                 <Button
                   onClick={scrollToForm}
-                  className="bg-gradient-to-r from-argos-green to-argos-teal hover:from-argos-green/90 hover:to-argos-teal/90 text-white rounded-full px-6"
+                  className="bg-gradient-to-r from-[#00a76f] to-[#0a8b9e] hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 text-white rounded-full px-6"
                 >
                   Apply Now <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -232,17 +232,17 @@ const Benefits = () => {
               {/* Light effects overlay */}
               <div className="absolute top-0 left-0 w-full h-full z-10">
                 {/* Top-left light orb */}
-                <div className="absolute top-[10%] left-[15%] w-24 h-24 rounded-full bg-primary/30 blur-2xl animate-pulse"></div>
+                <div className="absolute top-[10%] left-[15%] w-24 h-24 rounded-full bg-[#1e7a7a]/30 blur-2xl animate-pulse"></div>
 
                 {/* Bottom-right light orb */}
                 <div
-                  className="absolute bottom-[20%] right-[10%] w-32 h-32 rounded-full bg-secondary/30 blur-2xl animate-pulse"
+                  className="absolute bottom-[20%] right-[10%] w-32 h-32 rounded-full bg-[#3AA383]/30 blur-2xl animate-pulse"
                   style={{ animationDelay: "1.5s", animationDuration: "4s" }}
                 ></div>
 
                 {/* Light ray effect */}
                 <div
-                  className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-b from-primary/10 to-transparent 
+                  className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-b from-[#1e7a7a]/10 to-transparent 
                      rotate-15 transform-origin-top-right opacity-70"
                 ></div>
 
@@ -269,14 +269,14 @@ const Benefits = () => {
               >
                 <div className="relative w-full h-full">
                   {/* Enhanced gradient overlays */}
-                  <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 via-transparent to-secondary/20 mix-blend-overlay z-10"></div>
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-secondary/30 z-10"></div>
+                  <div className="absolute inset-0 bg-gradient-to-tr from-[#1e7a7a]/20 via-transparent to-[#3AA383]/20 mix-blend-overlay z-10"></div>
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#3AA383]/30 z-10"></div>
 
                   {/* Subtle vignette effect */}
                   <div className="absolute inset-0 bg-radial-gradient from-transparent to-black/30 opacity-60 z-10"></div>
 
                   <div className="absolute z-20 bottom-4 right-4 bg-white/90 p-3 rounded-lg shadow-md flex items-center gap-2 border border-white backdrop-blur-sm">
-                    <Laptop className="h-5 w-5 text-primary" />
+                    <Laptop className="h-5 w-5 text-[#1e7a7a]" />
                     <span className="text-sm font-medium">
                       Collaborate remotely
                     </span>
@@ -293,7 +293,7 @@ const Benefits = () => {
         </motion.div>
 
         <motion.div
-          className={`bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl border border-border shadow-md ${
+          className={`bg-gradient-to-br from-[#1e7a7a]/5 to-[#3AA383]/5 rounded-2xl border border-border shadow-md ${
             isMobile ? "rounded-none border-l-0 border-r-0 p-6" : "p-10"
           }`}
           initial={{
@@ -335,8 +335,8 @@ const Benefits = () => {
                   once: true,
                 }}
               >
-                <div className="mt-1 rounded-full bg-secondary/20 p-1 shadow-sm">
-                  <Check className="h-4 w-4 text-secondary" />
+                <div className="mt-1 rounded-full bg-[#3AA383]/20 p-1 shadow-sm">
+                  <Check className="h-4 w-4 text-[#3AA383]" />
                 </div>
                 <p className="font-medium">{benefit}</p>
               </motion.div>

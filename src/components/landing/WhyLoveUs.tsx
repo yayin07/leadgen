@@ -57,7 +57,7 @@ const WhyLoveUs = () => {
                       <div className="flex items-start gap-4">
                         <div className="text-2xl">{feature.icon}</div>
                         <div>
-                          <h3 className="text-xl font-bold mb-3 text-primary">
+                          <h3 className="text-xl font-bold mb-3 text-[#1e7a7a]">
                             {feature.title}
                           </h3>
                           <p className="text-muted-foreground">
@@ -71,10 +71,10 @@ const WhyLoveUs = () => {
               </CarouselContent>
 
               <div className="flex justify-center mt-6 gap-4">
-                <CarouselPrevious className="static transform-none h-10 w-10 rounded-full border-primary hover:bg-primary/10 hover:text-primary mr-2">
+                <CarouselPrevious className="static transform-none h-10 w-10 rounded-full border-[#1e7a7a] hover:bg-[#1e7a7a]/10 hover:text-[#1e7a7a] mr-2">
                   <ChevronLeft className="h-6 w-6" />
                 </CarouselPrevious>
-                <CarouselNext className="static transform-none h-10 w-10 rounded-full border-primary hover:bg-primary/10 hover:text-primary ml-2">
+                <CarouselNext className="static transform-none h-10 w-10 rounded-full border-[#1e7a7a] hover:bg-[#1e7a7a]/10 hover:text-[#1e7a7a] ml-2">
                   <ChevronRight className="h-6 w-6" />
                 </CarouselNext>
               </div>
@@ -90,7 +90,7 @@ const WhyLoveUs = () => {
                 <div className="flex items-start gap-4">
                   <div className="text-2xl">{feature.icon}</div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-primary">
+                    <h3 className="text-xl font-bold mb-3 text-[#1e7a7a]">
                       {feature.title}
                     </h3>
                     <p className="text-muted-foreground">

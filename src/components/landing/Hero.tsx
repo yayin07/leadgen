@@ -38,12 +38,12 @@ const Hero = ({ openMobileForm }: HeroProps) => {
           {/* Enhanced overlay with multiple layers for depth and light effects */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/60">
             {/* Adding ambient light effects */}
-            <div className="absolute inset-0 mix-blend-overlay bg-gradient-to-t from-transparent via-argos-green/5 to-argos-teal/10"></div>
+            <div className="absolute inset-0 mix-blend-overlay bg-gradient-to-t from-transparent via-[#00a76f]/5 to-[#0a8b9e]/10"></div>
 
             {/* Decorative light spheres/glows */}
-            <div className="absolute top-20 right-20 w-56 h-56 bg-argos-teal/20 blur-3xl rounded-full"></div>
-            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-argos-green/15 blur-3xl rounded-full animate-pulse"></div>
-            <div className="absolute bottom-1/4 right-1/3 w-48 h-48 bg-argos-teal/10 blur-3xl rounded-full"></div>
+            <div className="absolute top-20 right-20 w-56 h-56 bg-[#0a8b9e]/20 blur-3xl rounded-full"></div>
+            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#00a76f]/15 blur-3xl rounded-full animate-pulse"></div>
+            <div className="absolute bottom-1/4 right-1/3 w-48 h-48 bg-[#0a8b9e]/10 blur-3xl rounded-full"></div>
 
             {/* Subtle moving highlights */}
             <div className="absolute top-10 left-40 w-6 h-24 bg-white/5 rotate-45 blur-sm animate-float"></div>
@@ -53,7 +53,7 @@ const Hero = ({ openMobileForm }: HeroProps) => {
             ></div>
 
             {/* Bottom glow */}
-            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-argos-green/10 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-[#00a76f]/10 to-transparent"></div>
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@ const Hero = ({ openMobileForm }: HeroProps) => {
             }}
           >
             Master AI &{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-argos-green to-argos-teal">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#00a76f] to-[#0a8b9e]">
               Help Improve
             </span>{" "}
             AI
@@ -135,21 +135,21 @@ const Hero = ({ openMobileForm }: HeroProps) => {
           >
             {!isMobile && (
               <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-white backdrop-blur">
-                <span className="h-2 w-2 rounded-full bg-argos-green"></span>
+                <span className="h-2 w-2 rounded-full bg-[#00a76f]"></span>
                 No experience needed
               </div>
             )}
 
             {!isMobile && (
               <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-white backdrop-blur">
-                <span className="h-2 w-2 rounded-full bg-argos-green"></span>
+                <span className="h-2 w-2 rounded-full bg-[#00a76f]"></span>
                 Work from anywhere
               </div>
             )}
 
             {!isMobile && (
               <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-white backdrop-blur">
-                <span className="h-2 w-2 rounded-full bg-argos-green"></span>
+                <span className="h-2 w-2 rounded-full bg-[#00a76f]"></span>
                 Bi-weekly payments
               </div>
             )}
@@ -173,7 +173,7 @@ const Hero = ({ openMobileForm }: HeroProps) => {
           >
             {isMobile && (
               <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2.5 text-sm text-white backdrop-blur">
-                <span className="h-2 w-2 rounded-full bg-argos-green"></span>
+                <span className="h-2 w-2 rounded-full bg-[#00a76f]"></span>
                 <p className="text-white text-sm font-medium">
                   No experience needed
                 </p>
@@ -182,7 +182,7 @@ const Hero = ({ openMobileForm }: HeroProps) => {
 
             {isMobile && (
               <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2.5 text-sm text-white backdrop-blur">
-                <span className="h-2 w-2 rounded-full bg-argos-green"></span>
+                <span className="h-2 w-2 rounded-full bg-[#00a76f]"></span>
                 <p className="text-white text-sm font-medium">
                   Work from anywhere
                 </p>
@@ -191,7 +191,7 @@ const Hero = ({ openMobileForm }: HeroProps) => {
 
             {isMobile && (
               <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2.5 text-sm text-white backdrop-blur">
-                <span className="h-2 w-2 rounded-full bg-argos-green"></span>
+                <span className="h-2 w-2 rounded-full bg-[#00a76f]"></span>
                 <p className="text-white text-sm font-medium">
                   Bi-weekly payments
                 </p>
@@ -217,7 +217,7 @@ const Hero = ({ openMobileForm }: HeroProps) => {
             <Button
               onClick={scrollToForm}
               size={isMobile ? "default" : "lg"}
-              className={`bg-gradient-to-r from-argos-green to-argos-teal hover:from-argos-green/90 hover:to-argos-teal/90 text-white ${
+              className={`bg-gradient-to-r from-[#00a76f] to-[#0a8b9e] hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 text-white ${
                 isMobile ? "px-6 py-5" : "px-8 py-6 text-lg"
               } shadow-lg relative overflow-hidden group`}
             >

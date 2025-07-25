@@ -156,7 +156,7 @@ const MobileFormContainer = () => {
 
           <Button
             type="submit"
-            className="w-full bg-gradient-to-r from-argos-green to-argos-teal hover:from-argos-green/90 hover:to-argos-teal/90 text-white py-6 text-lg rounded-lg shadow-md transition-colors flex items-center justify-center"
+            className="w-full bg-gradient-to-r from-[#00a76f] to-[#0a8b9e] hover:from-[#00a76f]/90 hover:to-[#0a8b9e]/90 text-white py-6 text-lg rounded-lg shadow-md transition-colors flex items-center justify-center"
             disabled={isSubmitting}
           >
             {isSubmitting ? (
