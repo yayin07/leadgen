@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Check } from "lucide-react";
 import { motion } from "framer-motion";
 import { useIsMobile } from "@/hooks/use-mobile";
+import Image from "next/image";
+import BG from "../../../public/bg.jpg";
 
 interface HeroProps {
   openMobileForm: () => void;
@@ -29,11 +31,21 @@ const Hero = ({ openMobileForm }: HeroProps) => {
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <div className="relative w-full h-full overflow-hidden">
-          <img
+          {/* <img
             src="/lovable-uploads/76e39b24-c6e2-4d9e-b9c9-3951b6ef2a86.png"
             alt="Diverse global community"
             className="absolute inset-0 w-full h-full object-cover object-center"
-          />
+          /> */}
+
+          <div className="relative w-full h-full overflow-hidden">
+            <Image
+              src={BG}
+              alt="Diverse global community"
+              fill
+              className="object-cover object-center"
+              priority
+            />
+          </div>
 
           {/* Enhanced overlay with multiple layers for depth and light effects */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/60">

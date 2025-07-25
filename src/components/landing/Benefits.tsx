@@ -18,6 +18,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import BG from "../../../public/bg2.jpg";
+import Image from "next/image";
 
 const Benefits = () => {
   const isMobile = useIsMobile();
@@ -281,10 +283,13 @@ const Benefits = () => {
                       Collaborate remotely
                     </span>
                   </div>
-                  <img
-                    src="/lovable-uploads/896b7906-4906-40b3-b8d0-2669dff57577.png"
-                    alt="Diverse global community of contributors"
-                    className="object-cover w-full h-full"
+
+                  <Image
+                    src={BG}
+                    alt="Diverse global community"
+                    fill
+                    className="object-cover object-center"
+                    priority
                   />
                 </div>
               </motion.div>
