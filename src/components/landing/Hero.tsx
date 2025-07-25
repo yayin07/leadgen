@@ -31,12 +31,6 @@ const Hero = ({ openMobileForm }: HeroProps) => {
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <div className="relative w-full h-full overflow-hidden">
-          {/* <img
-            src="/lovable-uploads/76e39b24-c6e2-4d9e-b9c9-3951b6ef2a86.png"
-            alt="Diverse global community"
-            className="absolute inset-0 w-full h-full object-cover object-center"
-          /> */}
-
           <div className="relative w-full h-full overflow-hidden">
             <Image
               src={BG}
