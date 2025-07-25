@@ -52,7 +52,7 @@ const Header = ({ openMobileForm }: HeaderProps) => {
 
   return (
     <header className={headerClass}>
-      <div className="container flex h-16 items-center justify-between">
+      <div className="container mx-auto flex h-16 items-center justify-between">
         <motion.div
           className="flex items-center gap-2"
           initial={{ opacity: 0, x: -20 }}
